@@ -282,35 +282,64 @@
   </style>
 </head>
 <body>
+<!-- ヘッダー -->
+<header>
+  <a href="index.html" class="team-logo">
+    <img src="team-logo.svg" alt="swim experience のロゴ">
+  </a>
+</header>
 
-  <header class="header">
-    <div class="logo"><img src="logo.png" alt="Logo"></div>
-  </header>
+<!-- ヒーロー -->
+<section class="hero">
+  <h2>Life is short, so I want to swim faster.</h2>
+  <small>人生は短いらしい。そうなら速く泳ぎたい</small>
+  <img src="down.png" alt="プールの底画像">
+</section>
 
-  <section class="hero">
-    <h2 class="blinking">世界時計</h2>
-    <p>リアルタイムで各都市の時刻を表示</p>
+<!-- ボディ -->
+<main>
+  <!-- 流れ文字 -->
+  <h1 class="white">
+    <marquee behavior="scroll" direction="left">
+      スイム・イクスピリエンスとは 【競泳を体験・実感する】の意味です。
+      選手の理想通りに、上手く、速くなる実感を持つサポートをいたします。
+    </marquee>
+  </h1>
+
+  <!-- 活動内容 -->
+  <section>
+    <h2>スイム・イクスピリエンスの活動と内容</h2>
+    <ul>
+      <li>2025年7月から準備し、2026年より本格活動を計画中。</li>
+      <li>現在の活動は「①競泳選手傾向診断」「②レース動画解析」の２つのみ活動中。</li>
+    </ul>
+    <p>その他の活動は準備が整い次第、発信します。</p>
   </section>
 
-  <!-- ここに Python で生成した時刻表を iframe で埋め込み or JS で生成可能 -->
-  <div style="max-width:800px;margin:0 auto;">
-    <table class="week2-parts">
-      <thead>
-        <tr><th>都市</th><th>時刻</th></tr>
-      </thead>
-      <tbody id="world-clock">
-        <tr><td>Tokyo</td><td>2025-10-01 09:30:00</td></tr>
-        <tr><td>Bangkok</td><td>2025-10-01 07:30:00</td></tr>
-        <tr><td>Berlin</td><td>2025-10-01 03:30:00</td></tr>
-      </tbody>
-    </table>
-  </div>
+  <!-- お問い合わせフォーム -->
+  <section>
+    <h4>お問い合わせ先</h4>
+    <form action="mailform.php" method="post">
+      <p>お名前: <input type="text" name="name" id="name" required></p>
+      <p>性別:
+        <input type="radio" name="sex" value="男" required> 男
+        <input type="radio" name="sex" value="女" required> 女
+      </p>
+      <p>メールアドレス: <input type="email" name="email" required></p>
+      <p>メッセージ</p>
+      <textarea name="message" rows="5" required></textarea>
+      <p><input type="submit" value="送信する"></p>
+    </form>
+  </section>
+</main>
 
-  <footer id="footer2-parts">
-    <div class="footer2-1-parts">
-      <p>© 2025 世界時計サンプル</p>
-    </div>
-  </footer>
+<!-- フッター -->
+<footer>
+  <a href="index.html" class="team-logo">
+    <img src="team-logo.svg" alt="swim experience のロゴ">
+  </a>
+  <p class="copyright">&copy; 2025/07/14 Y. Omori</p>
+</footer>
 
 </body>
 </html>
