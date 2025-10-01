@@ -6,7 +6,7 @@
 <title>SWIM EXPERIENCE HOME PAGE</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="競泳が速くなりたい選手のためのホームページです">
-<link rel="stylesheet" href="css/main_style.css"> <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
+<link rel="stylesheet" href="main_style.css"> <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> </head>
 
 <body>
