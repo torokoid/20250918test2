@@ -1,0 +1,443 @@
+{\rtf1\ansi\ansicpg932\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww16240\viewh9300\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 /* \uc0\u22793 \u25968 \u12398 \u23450 \u32681 \u12394 \u12393 \u12289 \u20840 \u20307 \u12398 \u12473 \u12479 \u12452 \u12523 \u12434 \u35352 \u36848 \u12377 \u12427 \u22580 \u21512 \u12399 \u12371 \u12371 \u12395  */\
+:root \{\
+  --content-space: 20px; /* \uc0\u20363 \u12392 \u12375 \u12390 \u36861 \u21152  */\
+\}\
+\
+/* \uc0\u12504 \u12483 \u12480 \u12540  */\
+header \{ /* header\uc0\u12479 \u12464 \u12475 \u12524 \u12463 \u12479 \u12395 \u22793 \u26356  */\
+  width: 960px; /* \uc0\u20013 \u22830 \u25539 \u12360 \u12398 \u12383 \u12417 \u22266 \u23450 \u24133 \u12395 \u12377 \u12427 \u12363 \u12289 max-width: 960px; margin: 0 auto; \u12395 \u22793 \u26356 \u12434 \u26908 \u35342  */\
+  height: 170px;\
+  margin: 0 auto;\
+  display: flex;\
+  justify-content: space-between;\
+  align-items: center; /* \uc0\u20013 \u22830 \u25539 \u12360 \u12434 \u36861 \u21152  */\
+\}\
+.team-logo \{ /* team logo\uc0\u12463 \u12521 \u12473 \u12399 \u12495 \u12452 \u12501 \u12531 \u21306 \u20999 \u12426 \u12364 \u19968 \u33324 \u30340  */\
+  display: block;\
+\}\
+.team-logo img \{\
+  display: block;\
+  height: 60px;\
+\}\
+\
+\
+/* \uc0\u12498 \u12540 \u12525 \u12540  */\
+.hero \{\
+  width: 100%;\
+  height: 350px;\
+  display: flex;\
+  justify-content: center;\
+  align-items: center;\
+  color: #fff;\
+  font-weight: 700; /* 70px -> 700 (font-weight\uc0\u12399 \u21336 \u20301 \u12394 \u12375 ) */\
+  font-size: 48px;\
+  line-height: 1.2;\
+  text-align: center;\
+  margin: 100px 0 40px 0;\
+  flex-direction: column;\
+  position: relative;\
+  overflow: hidden; /* \uc0\u30011 \u20687 \u12364 \u12399 \u12415 \u20986 \u12373 \u12394 \u12356 \u12424 \u12358 \u12395  */\
+\}\
+.hero-bg-image \{ /* img\uc0\u12479 \u12464 \u12391 \u12399 \u12394 \u12367 \u32972 \u26223 \u30011 \u20687 \u12392 \u12375 \u12390 \u25201 \u12358 \u12394 \u12425  */\
+  position: absolute;\
+  top: 0;\
+  left: 0;\
+  width: 100%;\
+  height: 100%;\
+  object-fit: cover; /* \uc0\u30011 \u20687 \u12434 \u12459 \u12496 \u12540 \u12377 \u12427 \u12424 \u12358 \u12395  */\
+  z-index: -1; /* \uc0\u12467 \u12531 \u12486 \u12531 \u12484 \u12398 \u19979 \u12395 \u37197 \u32622  */\
+\}\
+.hero-content \{ /* \uc0\u12467 \u12531 \u12486 \u12531 \u12484 \u12434 \u12521 \u12483 \u12503 \u12377 \u12427 div */\
+  position: relative;\
+  z-index: 1;\
+\}\
+.hero h2 \{ /* .hero\uc0\u12398 \u23376 \u35201 \u32032 \u12398 h2 */\
+  font-size: 48px;\
+  font-weight: 700;\
+  margin: 0; /* \uc0\u12487 \u12501 \u12457 \u12523 \u12488 \u12510 \u12540 \u12472 \u12531 \u12434 \u12522 \u12475 \u12483 \u12488  */\
+\}\
+.hero small \{\
+  display: block; /* small\uc0\u35201 \u32032 \u12434 \u12502 \u12525 \u12483 \u12463 \u35201 \u32032 \u12395 \u12375 \u12390 \u25913 \u34892  */\
+  font-size: 20px; /* \uc0\u36861 \u21152  */\
+  margin-top: 10px; /* \uc0\u36861 \u21152  */\
+\}\
+\
+/* \uc0\u12498 \u12540 \u12525 \u12540 \u12398 \u19979 \u12398 \u12508 \u12479 \u12531  (down.png\u12392 \u26360 \u12363 \u12428 \u12390 \u12356 \u12383 \u37096 \u20998 ) */\
+/* \uc0\u20803 \u12398 HTML\u12391  img src="down.png" alt="\u12503 \u12540 \u12523 \u12398 \u24213 \u30011 \u20687 " \u12364 \u12354 \u12426 \u12414 \u12375 \u12383 \u12364 \u12289 \
+   \uc0\u12371 \u12428 \u12364 \u12498 \u12540 \u12525 \u12540 \u12398 \u32972 \u26223 \u30011 \u20687 \u12394 \u12425 .hero\u12398 background-image\u12391 \u35373 \u23450 \u12375 \u12414 \u12377 \u12290 \
+   \uc0\u12418 \u12375 \u12508 \u12479 \u12531 \u12391 \u12354 \u12428 \u12400 \u20197 \u19979 \u12398 \u12424 \u12358 \u12395 \u35519 \u25972 \u12375 \u12414 \u12377 \u12290 \
+*/\
+/*\
+.hero-button-link \{\
+  display: grid;\
+  place-items: center;\
+  width: 60px;\
+  height: 60px;\
+  background-color: #6A9631;\
+  border-radius: 50%;\
+  box-shadow: 0px 12px 20px rgb(0 0 0 / 0.1);\
+  position: absolute;\
+  left: 50%;\
+  bottom: 0;\
+  transform: translateX(-50%) translateY(50%);\
+  z-index: 2;\
+\}\
+.hero-button-link img \{\
+  width: 24px;\
+  height: 24px;\
+\}\
+*/\
+\
+\
+/* \uc0\u12508 \u12487 \u12451  */\
+body \{ /* .body \uc0\u12392 \u12356 \u12358 \u12463 \u12521 \u12473 \u12399 HTML\u12398 <body>\u12479 \u12464 \u33258 \u36523 \u12395 \u12399 \u36890 \u24120 \u12388 \u12369 \u12394 \u12356  */\
+  font-family: sans-serif; /* \uc0\u12487 \u12501 \u12457 \u12523 \u12488 \u12398 \u12501 \u12457 \u12531 \u12488 \u12434 \u35373 \u23450  */\
+  margin: 0; /* \uc0\u12487 \u12501 \u12457 \u12523 \u12488 \u12510 \u12540 \u12472 \u12531 \u12434 \u12522 \u12475 \u12483 \u12488  */\
+  padding: 0;\
+\}\
+main \{ /* main\uc0\u12479 \u12464 \u12398 \u12473 \u12479 \u12452 \u12523  */\
+  width: 960px; /* \uc0\u12467 \u12531 \u12486 \u12531 \u12484 \u12456 \u12522 \u12450 \u12398 \u24133  */\
+  margin: 0 auto; /* \uc0\u20013 \u22830 \u25539 \u12360  */\
+  padding: 20px 0; /* \uc0\u19978 \u19979 \u12398 \u12497 \u12487 \u12451 \u12531 \u12464  */\
+\}\
+\
+/* \uc0\u28857 \u28357  */\
+.blinking \{\
+  animation: blink 1.5s ease-in-out infinite alternate;\
+\}\
+@keyframes blink \{\
+  0% \{ opacity: 0; \}\
+  100% \{ opacity: 1; \}\
+\}\
+\
+/*\uc0\u32972 \u26223 \u12434 \u34920 \u31034 \u12373 \u12379 \u12427 \u37096 \u20998 */\
+body::before \{\
+  content: "";\
+  display: block;\
+  position: fixed;\
+  top: 0;\
+  left: 0;\
+  z-index: -1;\
+  width: 100%;\
+  height: 100vh;\
+  background: url(haikei.JPG) center/cover no-repeat;\
+  -webkit-background-size: cover; /* Android4 */\
+\}\
+\
+/* \uc0\u12507 \u12496 \u12540 \u26178 \u12398 \u12484 \u12540 \u12523 \u12481 \u12483 \u12503 \u12398 \u12424 \u12358 \u12394 \u12473 \u12479 \u12452 \u12523  */\
+a.p:hover \{\
+  position: relative;\
+  text-decoration: none;\
+\}\
+a.p span \{\
+  display: none;\
+  position: relative;\
+  top: -0.5em;\
+  left: 2em;\
+\}\
+a.p:hover span \{\
+  border: none;\
+  display: block;\
+  width: 800px;\
+\}\
+\
+@media screen and (min-width: 540px), screen and (orientation: landscape) \{\
+  p.note \{ display: none; \}\
+\}\
+\
+/* \uc0\u12490 \u12499  (menubar\u20869 \u12398 nav) */\
+#menubar nav ul \{\
+  list-style: none;\
+  padding: 0;\
+  margin: 0;\
+  display: flex; /* \uc0\u27178 \u20006 \u12403 \u12395 \u12377 \u12427  */\
+  justify-content: center; /* \uc0\u20013 \u22830 \u25539 \u12360  */\
+  background-color: #333; /* \uc0\u12490 \u12499 \u12398 \u32972 \u26223 \u33394  */\
+\}\
+#menubar nav li \{\
+  position: relative;\
+\}\
+#menubar nav li a \{\
+  display: block;\
+  padding: 15px 20px;\
+  color: #fff;\
+  text-decoration: none;\
+\}\
+#menubar nav li a span \{\
+  display: block; /* \uc0\u26085 \u26412 \u35486 \u12392 \u33521 \u35486 \u12434 \u25913 \u34892 \u12375 \u12390 \u34920 \u31034  */\
+  font-size: 0.8em;\
+\}\
+#menubar nav ul ul \{ /* \uc0\u12489 \u12525 \u12483 \u12503 \u12480 \u12454 \u12531 \u12513 \u12491 \u12517 \u12540  */\
+  display: none;\
+  position: absolute;\
+  top: 100%;\
+  left: 0;\
+  background-color: #555;\
+  min-width: 200px;\
+  z-index: 10;\
+  flex-direction: column; /* \uc0\u12489 \u12525 \u12483 \u12503 \u12480 \u12454 \u12531 \u12399 \u32294 \u20006 \u12403  */\
+\}\
+#menubar nav ul li:hover > ul \{\
+  display: flex; /* \uc0\u12507 \u12496 \u12540 \u12391 \u34920 \u31034  */\
+\}\
+#menubar nav ul ul li a \{\
+  padding: 10px 15px;\
+  white-space: nowrap;\
+\}\
+#menubar nav ul ul li a:hover \{\
+  background-color: #777;\
+\}\
+\
+/* list-normal3-parts */\
+.list-normal3-parts .list-parts * \{ margin: 0; padding: 0; \}\
+.list-normal3-parts .list-parts \{\
+  position: relative;\
+  overflow: hidden;\
+  padding: 1.5rem;\
+  background: #fff;\
+  color: #555;\
+  border: 1px solid #ccc;\
+  margin-bottom: 2rem;\
+\}\
+.list-normal3-parts .list-parts figure \{\
+  margin-bottom: 0.5rem;\
+\}\
+.list-normal3-parts .list-parts h4 \{\
+  font-size: 1.3rem;\
+  margin-bottom: 0.5rem;\
+\}\
+.list-normal3-parts .list-parts p \{\
+  font-size: 0.9rem;\
+  line-height: 1.6;\
+\}\
+@media screen and (min-width:500px) \{\
+  .list-normal3-parts .list-parts \{\
+    display: flex;\
+    gap: 1.5rem;\
+  \}\
+  .list-normal3-parts .list-parts figure \{\
+    margin-bottom: 0;\
+    width: 30%;\
+  \}\
+  .list-normal3-parts .list-parts .text-parts \{\
+    flex: 1;\
+  \}\
+\}\
+\
+/* \uc0\u12450 \u12452 \u12467 \u12531  */\
+.list-normal3-parts .icon-bg1-parts,\
+.list-normal3-parts .icon-bg2-parts \{\
+  overflow: hidden;\
+  position: absolute;\
+  left: 0px;\
+  top: 0px;\
+  font-size: 0.7rem;\
+  width: 10rem;\
+  padding-top: 2rem;\
+  text-align: center;\
+  transform: rotate(-45deg) translate(-2.4rem,-3rem);\
+\}\
+.list-normal3-parts .icon-bg1-parts \{\
+  background: #ff3535;\
+  color: #fff;\
+\}\
+.list-normal3-parts .icon-bg2-parts \{\
+  background: #358bff;\
+  color: #fff;\
+\}\
+\
+\
+/* \uc0\u12508 \u12479 \u12531  */\
+.button \{\
+  display: inline-block;\
+  color: #fff;\
+  background-color: #06f;\
+  padding: 1em 2em;\
+  border-radius: 8px;\
+  text-decoration: none; /* \uc0\u12522 \u12531 \u12463 \u12398 \u19979 \u32218 \u12434 \u28040 \u12377  */\
+  margin-top: 10px; /* \uc0\u19978 \u37096 \u12395 \u20313 \u30333 \u12434 \u36861 \u21152  */\
+\}\
+.button_solid002 \{ /* \uc0\u35242 \u35201 \u32032 \u12395 \u12510 \u12540 \u12472 \u12531 \u12434 \u36861 \u21152 \u12377 \u12427 \u22580 \u21512 \u12394 \u12393  */\
+  text-align: center; /* \uc0\u12508 \u12479 \u12531 \u12434 \u20013 \u22830 \u12395 \u23492 \u12379 \u12427 \u22580 \u21512  */\
+  margin-top: 20px;\
+\}\
+\
+\
+/* \uc0\u12501 \u12483 \u12479 \u12540  */\
+footer \{ /* \uc0\u26368 \u21021 \u12398 footer\u12479 \u12464 \u12398 \u12473 \u12479 \u12452 \u12523 \u12434 \u12371 \u12371 \u12395 \u12414 \u12392 \u12417 \u12427  */\
+  background: #f8f8f8;\
+  padding: 40px 20px;\
+  text-align: center;\
+\}\
+.footer-main \{ /* \uc0\u26032 \u12375 \u12367 \u36861 \u21152 \u12375 \u12383 \u12521 \u12483 \u12497 \u12540  */\
+  width: 960px;\
+  margin: 0 auto;\
+\}\
+footer .team-logo \{\
+  margin-bottom: 20px;\
+\}\
+.footer-nav ul \{\
+  list-style: none;\
+  padding: 0;\
+  margin: 0 0 20px 0;\
+  display: flex;\
+  flex-wrap: wrap;\
+  justify-content: center;\
+  gap: 10px 20px; /* \uc0\u19978 \u19979 \u24038 \u21491 \u12398 \u38553 \u38291  */\
+\}\
+.footer-nav li a \{\
+  color: #333;\
+  text-decoration: none;\
+\}\
+.copyright \{\
+  font-size: 0.8em;\
+  color: #666;\
+  margin-top: 20px;\
+\}\
+\
+#footer2-parts * \{ margin: 0; padding: 0; \}\
+#footer2-parts ul \{ list-style: none; \}\
+#footer2-parts \{\
+  background: #eee;\
+  color: #555;\
+  padding: var(--content-space);\
+  display: flex; /* Flexbox\uc0\u12395 \u22793 \u26356  */\
+  flex-wrap: wrap; /* \uc0\u12524 \u12473 \u12509 \u12531 \u12471 \u12502 \u23550 \u24540  */\
+  justify-content: space-around; /* \uc0\u20013 \u22830 \u23492 \u12379  */\
+  gap: 2rem; /* \uc0\u35201 \u32032 \u38291 \u12398 \u12473 \u12506 \u12540 \u12473  */\
+\}\
+#footer2-parts div.footer2-1-parts \{\
+  flex: 1; /* \uc0\u12473 \u12506 \u12540 \u12473 \u12434 \u22343 \u31561 \u12395 \u20351 \u12358  */\
+  min-width: 300px; /* \uc0\u26368 \u23567 \u24133 \u12434 \u35373 \u23450  */\
+  display: flex;\
+  flex-direction: column;\
+  gap: 1rem;\
+\}\
+#footer2-parts div.footer2-1-parts p \{ /* P\uc0\u12479 \u12464 \u12398 \u12487 \u12501 \u12457 \u12523 \u12488 \u12510 \u12540 \u12472 \u12531 \u12434 \u12522 \u12475 \u12483 \u12488  */\
+  margin: 0;\
+\}\
+/* #footer2-parts div.footer2-2-parts \uc0\u12399 HTML\u12395 \u23384 \u22312 \u12375 \u12394 \u12356 \u12383 \u12417 \u21066 \u38500  */\
+\
+@media screen and (min-width:700px) \{\
+  #footer2-parts \{\
+    flex-wrap: nowrap; /* 700px\uc0\u20197 \u19978 \u12391 \u12399 \u27178 \u20006 \u12403 \u12434 \u32173 \u25345  */\
+  \}\
+  #footer2-parts div.footer2-1-parts \{\
+    text-align: left;\
+    width: 40%;\
+    min-width: unset; /* \uc0\u24517 \u35201 \u12395 \u24540 \u12376 \u12390 \u26368 \u23567 \u24133 \u12434 \u12522 \u12475 \u12483 \u12488  */\
+  \}\
+\}\
+\
+#footer2-parts small \{ /* HTML\uc0\u12391 \u12399 <p class="copyright">\u12391 \u12414 \u12392 \u12417 \u12390 \u12356 \u12383 \u12398 \u12391 \u12289 CSS\u12418 \u12381 \u12428 \u12395 \u21512 \u12431 \u12379 \u12427  */\
+  display: block;\
+  text-align: right;\
+  margin-top: 2rem;\
+\}\
+\
+/* SNS\uc0\u12450 \u12452 \u12467 \u12531  */\
+.sns1-parts \{\
+  list-style: none;\
+  margin: 0; padding: 0;\
+  display: flex;\
+  flex-wrap: wrap;\
+  gap: 1rem;\
+  justify-content: center; /* \uc0\u12450 \u12452 \u12467 \u12531 \u12434 \u20013 \u22830 \u23492 \u12379  */\
+\}\
+.sns1-parts i \{\
+  font-size: 30px;\
+\}\
+\
+\
+/* Google Map\uc0\u29992  */\
+.iframe-box1-parts \{\
+  width: 100%;\
+  height: 0;\
+  padding-top: 56.25% !important;\
+  position: relative;\
+  overflow: hidden;\
+\}\
+.iframe-box1-parts iframe \{\
+  position: absolute;\
+  left: 0px;\
+  top: 0px;\
+  width: 100%;\
+  height: 100%;\
+\}\
+\
+\
+/* \uc0\u12486 \u12540 \u12502 \u12523  */\
+.week2-parts \{\
+  width: 100%;\
+  border-collapse: separate;\
+  border-spacing: 0;\
+  overflow: hidden;\
+  border-radius: 10px;\
+  border: 1px solid #ccc;\
+  table-layout: fixed;\
+  background: #fff;\
+  color: #555;\
+\}\
+.week2-parts th:first-child,\
+.week2-parts td:first-child \{\
+  width: 25%;\
+\}\
+.week2-parts th:not(:first-child),\
+.week2-parts td:not(:first-child) \{\
+  width: calc(75% / 7);\
+\}\
+.week2-parts th,\
+.week2-parts td \{\
+  padding: 1rem 0;\
+  text-align: center;\
+  border-bottom: 1px solid #ccc;\
+  border-right: 1px solid #ccc;\
+\}\
+.week2-parts th:last-child,\
+.week2-parts td:last-child \{\
+  border-right: none;\
+\}\
+.week2-parts tr:last-child td \{\
+  border-bottom: none;\
+\}\
+.week2-parts th \{\
+  background: #fafafa;\
+\}\
+.week2-parts td \{\
+  border-bottom: 1px solid #ccc;\
+\}\
+\
+/* pagetop (\uc0\u12506 \u12540 \u12472 \u12488 \u12483 \u12503 \u12408 \u25147 \u12427 \u12508 \u12479 \u12531 ) */\
+.pagetop \{\
+  position: fixed;\
+  bottom: 20px;\
+  right: 20px;\
+  z-index: 99;\
+\}\
+.pagetop a \{\
+  display: block;\
+  width: 50px;\
+  height: 50px;\
+  background-color: #06f;\
+  border-radius: 50%;\
+  color: #fff;\
+  text-align: center;\
+  line-height: 50px;\
+  font-size: 24px;\
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);\
+  text-decoration: none;\
+\}\
+.pagetop a:hover \{\
+  opacity: 0.8;\
+\}\
+\
+/* \uc0\u12381 \u12398 \u20182 \u12398 \u12473 \u12479 \u12452 \u12523  */\
+.yellow \{ color: yellow; \} /* .yellow \uc0\u12463 \u12521 \u12473 \u12398 \u23450 \u32681  */\
+.white \{ color: white; \} /* .white \uc0\u12463 \u12521 \u12473 \u12398 \u23450 \u32681  */}
